@@ -42,6 +42,45 @@
   git pull origin <branch_name>
   ```
 
+## Git Configuration
+
+* **List all configurations:**
+
+  ```bash
+  git config --list
+  ```
+
+* **List all configurations with file origin:**
+
+  ```bash
+  git config -l --show-origin
+  ```
+
+* **Set global username:**
+
+  ```bash
+  git config --global user.name "Your Name"
+  ```
+
+* **Set global email:**
+
+  ```bash
+  git config --global user.email "your_email@example.com"
+  ```
+
+* **Set local username (per repository):**
+
+  ```bash
+  git config user.name "Your Name"
+  ```
+
+* **Set local email (per repository):**
+
+  ```bash
+  git config user.email "your_email@example.com"
+  ```
+
+
 ## Code Practices
 
 * **Clone from remote repository:**
