@@ -90,3 +90,14 @@
   ```bash
   git merge <branch_name>
   ```
+
+* **List branches / manage branches:**
+
+  ```bash
+  git branch
+  ```
+* **List remote repositories:**
+
+  ```bash
+  git remote -v
+  ```
