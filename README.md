@@ -163,6 +163,20 @@
 
 After this, you can simply use `git push` or `git pull` without specifying the remote and branch.
 
+
+
+* **Rename current branch:**
+
+  ```bash
+  git branch -m <new_branch_name>
+  ```
+
+* **Merge a branch into the current branch:**
+
+  ```bash
+  git merge <branch_name>
+  ```
+
 ## Git Aliases
 
 * **Create a shortcut (alias) for a Git command:**
@@ -196,17 +210,3 @@ After this, you can simply use `git push` or `git pull` without specifying the r
   ```bash
   git config --global alias.br branch
   ```
-
-
-* **Rename current branch:**
-
-  ```bash
-  git branch -m <new_branch_name>
-  ```
-
-### Example
-
-```bash
-git br -m master
-```
-
