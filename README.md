@@ -162,3 +162,38 @@
   ```
 
 After this, you can simply use `git push` or `git pull` without specifying the remote and branch.
+
+## Git Aliases
+
+* **Create a shortcut (alias) for a Git command:**
+
+  ```bash
+  git config --global alias.<shortcut> <command>
+  ```
+
+### Examples
+
+* Alias for `status`:
+
+  ```bash
+  git config --global alias.st status
+  ```
+
+* Alias for `checkout`:
+
+  ```bash
+  git config --global alias.co checkout
+  ```
+
+* Alias for `commit`:
+
+  ```bash
+  git config --global alias.ci commit
+  ```
+
+* Alias for `branch`:
+
+  ```bash
+  git config --global alias.br branch
+  ```
+
