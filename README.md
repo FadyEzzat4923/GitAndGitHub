@@ -154,3 +154,11 @@
   ```bash
   git remote -v
   ```
+
+* **Push with upstream tracking (sets default branch for future pushes/pulls):**
+
+  ```bash
+  git push -u origin <branch_name>
+  ```
+
+After this, you can simply use `git push` or `git pull` without specifying the remote and branch.
