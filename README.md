@@ -197,6 +197,7 @@ After this, you can simply use `git push` or `git pull` without specifying the r
   git config --global alias.br branch
   ```
 
+
 * **Rename current branch:**
 
   ```bash
