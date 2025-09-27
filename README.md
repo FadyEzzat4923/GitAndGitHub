@@ -28,6 +28,20 @@
 * Manage **push** and **pull** permissions based on roles.
 * Use `.md` files (Markdown) for project documentation.
 
+## Collaboration Workflow
+
+* Go to **Repository Settings** → **Manage Access** → **Add People** to invite collaborators.
+* The invited member can then **clone** the repository:
+
+  ```bash
+  git clone <github_URL>
+  ```
+* After making changes, collaborators should always **pull the latest updates** before pushing:
+
+  ```bash
+  git pull origin <branch_name>
+  ```
+
 ## Code Practices
 
 * **Clone from remote repository:**
