@@ -210,3 +210,23 @@ After this, you can simply use `git push` or `git pull` without specifying the r
   ```bash
   git config --global alias.br branch
   ```
+
+  ## Git Stash
+
+* **Save uncommitted changes temporarily:**
+
+  ```bash
+  git stash
+  ```
+
+* **List all stashes:**
+
+  ```bash
+  git stash list
+  ```
+
+* **Reapply the most recent stash and remove it from the stash list:**
+
+  ```bash
+  git stash pop
+  ```
