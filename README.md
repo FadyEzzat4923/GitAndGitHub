@@ -49,10 +49,16 @@
   git add .             # Add all files
   ```
 
-* **Stage Status:**
+* **Check status of staged/unstaged files:**
 
   ```bash
   git status
+  ```
+
+* **Unstage a file (remove from staging area):**
+
+  ```bash
+  git reset HEAD <file_name>
   ```
 
 * **Commit changes:**
