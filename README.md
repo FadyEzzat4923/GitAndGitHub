@@ -196,6 +196,27 @@ After this, you can simply use `git push` or `git pull` without specifying the r
   git clean -f
   ```
 
+## Reset and Force Push
+
+* **Reset repository to a specific commit (permanently changes history):**
+
+  * Hard reset (discard all changes):
+
+    ```bash
+    git reset --hard <commit_hash>
+    ```
+  * Soft reset (keep changes staged):
+
+    ```bash
+    git reset --soft <commit_hash>
+    ```
+
+* **Force push changes to the remote repository (overwrite history):**
+
+  ```bash
+  git push origin main --force
+  ```
+
 ## Git Aliases
 
 - **Create a shortcut (alias) for a Git command:**
