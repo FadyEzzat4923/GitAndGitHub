@@ -175,22 +175,23 @@ After this, you can simply use `git push` or `git pull` without specifying the r
   ```bash
   git merge <branch_name>
   ```
+
 ## Restoring and Cleaning
 
-* **Unstage a file or all files (move back from staged to unstaged):**
+- **Unstage a file or all files (move back from staged to unstaged):**
 
   ```bash
   git restore --staged <file_name>
   git restore --staged *
   ```
 
-* **Show which untracked files will be removed (dry run):**
+- **Show which untracked files will be removed (dry run):**
 
   ```bash
   git clean -n
   ```
 
-* **Remove untracked files forcefully:**
+- **Remove untracked files forcefully:**
 
   ```bash
   git clean -f
@@ -198,23 +199,50 @@ After this, you can simply use `git push` or `git pull` without specifying the r
 
 ## Reset and Force Push
 
-* **Reset repository to a specific commit (permanently changes history):**
+- **Reset repository to a specific commit (permanently changes history):**
 
-  * Hard reset (discard all changes):
+  - Hard reset (discard all changes):
 
     ```bash
     git reset --hard <commit_hash>
     ```
-  * Soft reset (keep changes staged):
+
+  - Soft reset (keep changes staged):
 
     ```bash
     git reset --soft <commit_hash>
     ```
 
-* **Force push changes to the remote repository (overwrite history):**
+- **Force push changes to the remote repository (overwrite history):**
 
   ```bash
   git push origin main --force
+  ```
+
+## Git Tags
+
+- **List all tags:**
+
+  ```bash
+  git tag
+  ```
+
+- **Create a lightweight tag:**
+
+  ```bash
+  git tag v1.0
+  ```
+
+- **Push a specific tag to remote:**
+
+  ```bash
+  git push origin v1.0
+  ```
+
+- **Create an annotated tag with a message:**
+
+  ```bash
+  git tag -a v2.0 -m "Second Version"
   ```
 
 ## Git Aliases
