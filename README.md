@@ -175,6 +175,26 @@ After this, you can simply use `git push` or `git pull` without specifying the r
   ```bash
   git merge <branch_name>
   ```
+## Restoring and Cleaning
+
+* **Unstage a file or all files (move back from staged to unstaged):**
+
+  ```bash
+  git restore --staged <file_name>
+  git restore --staged *
+  ```
+
+* **Show which untracked files will be removed (dry run):**
+
+  ```bash
+  git clean -n
+  ```
+
+* **Remove untracked files forcefully:**
+
+  ```bash
+  git clean -f
+  ```
 
 ## Git Aliases
 
