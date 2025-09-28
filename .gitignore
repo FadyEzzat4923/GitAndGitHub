@@ -1,0 +1,11 @@
+*.log
+!vip.log
+*.DS_Store
+temp/
+node_modules/
+.vscode/
+.idea/
+specificFile.js
+
+# IF it is ignored, and you need to track it use:
+# git add -f specificFile.js
